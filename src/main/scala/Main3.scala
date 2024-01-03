@@ -40,33 +40,8 @@ object Main3 extends App {
     )
 
 
-
-
   val differentor = Differentor[Demand](demandOld,demandNew)
 
-/*
-  val res = compare(demandOld, demandNew)
 
-  val diffResultObject = res.asInstanceOf[DiffResultObject]
-
-
-  println(s"object class -> ${diffResultObject.name}")
-  //println(diffResultObject.fields)
-
-  diffResultObject.fields.foreach {
-    case (fieldName, value) if fieldName == "subDemands"  =>
-      println("-------------------------------")
-      val res = value.asInstanceOf[DiffResultObject]
-      println(res.fields)
-    case (_,_) =>
-  }
-*/
-
-
-
-
-
-/*  println(res.show())
-  println(res)*/
 
 }
